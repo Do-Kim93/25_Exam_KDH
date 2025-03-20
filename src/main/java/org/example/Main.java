@@ -11,8 +11,8 @@ public class Main {
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
-            for (int j = a; j > i; j--) {
-                System.out.printf("%d ", j);
+            for (int d = a; d > i; d--) {
+                System.out.printf("%d ", d-i);
             }
             System.out.println();
         }
